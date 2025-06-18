@@ -3,8 +3,10 @@ package com.tecdesoftware.donut_app_backend.persistence.entity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
+@Table(name = "usuarios")
 public class User {
     @Id
     @GeneratedValue
